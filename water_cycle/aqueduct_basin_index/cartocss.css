@@ -1,0 +1,33 @@
+#basins_all {
+  polygon-fill: #000;
+  polygon-opacity: 0;
+  line-color: #4554c1;
+  
+  [zoom>=2]{
+    ::outline{
+      line-join: round;
+      line-width: 3;
+      line-opacity: 0.2;
+      line-color: #4554c1;
+      }
+  line-width: 0.5; 
+    }
+  
+  [zoom>=5]{
+    ::outline{
+      line-width: 5;
+      line-opacity: 0.2;
+      line-color: #4554c1;
+      }
+  line-width: 1;
+    }
+  
+  [zoom>=8]{
+    ::outline{
+      line-width: 8;
+      line-opacity: 0.2;
+      line-color: #4554c1;
+      }
+  line-width: 1.5;
+    }
+}
