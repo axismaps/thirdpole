@@ -1,0 +1,33 @@
+#major_river_basins_hkh {
+  polygon-fill: #000;
+  polygon-opacity: 0;
+  line-color: #bd7e00;
+  
+  [zoom>=2]{
+    ::outline{
+      line-join: round;
+      line-width: 3;
+      line-opacity: 0.2;
+      line-color: #bd7e00;
+      }
+  line-width: 0.5; 
+    }
+  
+  [zoom>=5]{
+    ::outline{
+      line-width: 5;
+      line-opacity: 0.2;
+      line-color: #bd7e00;
+      }
+  line-width: 1;
+    }
+  
+  [zoom>=8]{
+    ::outline{
+      line-width: 8;
+      line-opacity: 0.2;
+      line-color: #bd7e00;
+      }
+  line-width: 1.5;
+    }
+}
