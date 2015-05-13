@@ -1,0 +1,56 @@
+#ecoregions {
+  line-width: 0;
+  line-color: #ccc;
+  opacity: 0.8;
+
+  [zoom>=4]{
+    line-width: 0.5;
+    }
+  [zoom>=6]{
+    line-width: 1;
+    }
+  
+  [MHT_NAME= "Deserts and xeric shrublands"]{
+  polygon-fill: #fdbf6f;
+  }
+  
+  [MHT_NAME= "Mangroves"]{
+  polygon-fill: #6a3d9a;
+  }
+  
+  [MHT_NAME= "Montane grasslands"]{
+  polygon-fill: #ffff99;
+  }
+  
+  [MHT_NAME= "Snow, ice, glaciers, and rock"]{
+  polygon-fill: #999;
+  }
+  
+  [MHT_NAME= "Temperate broadleaf and mixed forests"]{
+  polygon-fill: #33a02c;
+  }
+  
+  [MHT_NAME= "Temperate coniferous forests"]{
+  polygon-fill: #b2df8a;
+  }
+  
+  [MHT_NAME= "Temperate grasslands, savannas, and shrublands"]{
+  polygon-fill: #e31a1c;
+  }
+  
+  [MHT_NAME= "Tropical and subtropical coniferous forests"]{
+  polygon-fill: #cab2d6;
+  }
+  
+  [MHT_NAME= "Tropical and subtropical dry broadleaf forests"]{
+  polygon-fill: #fb9a99;
+  }
+  
+  [MHT_NAME= "Tropical and subtropical grasslands, savannas, and shrublands"]{
+  polygon-fill: #ff7f00;
+  }
+  
+  [MHT_NAME= "Tropical and subtropical moist broadleaf forests"]{
+  polygon-fill: #b15928;
+  }
+}

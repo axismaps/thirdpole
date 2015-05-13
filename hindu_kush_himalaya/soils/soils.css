@@ -1,0 +1,80 @@
+#soils {
+  line-width: 0;
+  line-color: #ccc;
+  opacity: 0.8;
+
+  [zoom>=4]{
+    line-width: 0.5;
+    }
+  [zoom>=6]{
+    line-width: 1;
+    }
+  
+  [FAOSOIL=~"A.*"]{
+  polygon-fill: #a6cee3;
+  }
+  
+  [FAOSOIL=~"B.*"]{
+  polygon-fill: #1f78b4;
+  }
+  
+  [FAOSOIL=~"C.*"]{
+  polygon-fill: #b2df8a;
+  }
+  
+  [FAOSOIL=~"G.*"]{
+  polygon-fill: #33a02c;
+  }
+  
+  [FAOSOIL=~"I.*"]{
+  polygon-fill: #b9a66f;
+  }
+  
+  [FAOSOIL=~"J.*"]{
+  polygon-fill: #e31a1c;
+  }
+  
+  [FAOSOIL=~"K.*"]{
+  polygon-fill: #ccc;
+  }
+  
+  [FAOSOIL=~"L.*"]{
+  polygon-fill: #fdbf6f;
+  }
+  
+  [FAOSOIL=~"N.*"]{
+  polygon-fill: #ff7f00;
+  }
+  
+  [FAOSOIL=~"O.*"]{
+  polygon-fill: #cab2d6;
+  }
+  
+  [FAOSOIL=~"Q.*"]{
+  polygon-fill: #6a3d9a;
+  }
+  
+  [FAOSOIL=~"R.*"]{
+  polygon-fill: #ffff99;
+  }
+  
+  [FAOSOIL=~"V.*"]{
+  polygon-fill: #b15928;
+  }
+  
+  [FAOSOIL=~"W.*"]{
+  polygon-fill: #76d4c8;
+  }
+  
+  [FAOSOIL=~"X.*"]{
+  polygon-fill: #89a257;
+  }
+  
+  [FAOSOIL=~"Y.*"]{
+  polygon-fill: #fb9a99;
+  }
+  
+  [FAOSOIL=~"Z.*"]{
+  polygon-fill: #d873ba;
+  }
+}

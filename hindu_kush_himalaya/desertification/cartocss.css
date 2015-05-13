@@ -1,0 +1,21 @@
+#desertification {
+  [HIX_DESC = "Dry subhumid"]{
+  polygon-fill: #badd69;
+  polygon-opacity: 0.8;
+  }
+  
+  [HIX_DESC = "Semiarid"]{
+  polygon-fill: #eff4a5;
+  polygon-opacity: 0.8;
+  }
+  
+  [HIX_DESC = "Arid"]{
+  polygon-fill: #f4daac;
+  polygon-opacity: 0.8;
+  }
+  
+  [HIX_DESC = "Hyperarid"]{
+  polygon-fill: #f7b093;
+  polygon-opacity: 0.8;
+  }
+}

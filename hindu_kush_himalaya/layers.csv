@@ -1,0 +1,7 @@
+name,id,type
+Airports,thethirdpole.airports,switchable
+Settlements,thethirdpole.settlements,switchable
+Soils,thethirdpole.soils,switchable
+Ecoregions,thethirdpole.ecoregions,switchable
+Desertification,thethirdpole.desertification,switchable
+Basemap - Hindu-Kush Himalaya,thethirdpole.m5lna0hl,base

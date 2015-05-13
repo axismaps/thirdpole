@@ -1,0 +1,71 @@
+@font_reg: "Arial Regular";
+
+// Airports //
+#airports[zoom>=2] {
+  marker-file: url("img/airport-18.svg");
+  text-name: "''";
+  text-size: 8;
+  text-fill: #333;
+  text-halo-fill: #fff;
+  text-halo-radius: 1.5;
+  text-halo-rasterizer: fast;
+  text-face-name: @font_reg;
+  text-character-spacing: 0.5;
+  text-placement-type: simple;
+  text-placements: "S,N,E,W";
+  text-dx: 6; text-dy: 6;
+  marker-allow-overlap: true;
+  
+  [zoom>=6] {
+  //text-name: [NAME];
+    text-wrap-before: true;
+  }
+  [zoom>=6] {
+    marker-file: url("img/airport-24.svg");
+    text-size: 8;
+    text-dx: 10; text-dy: 10;
+    text-wrap-width: 80;
+  }
+  [zoom>=7] {
+    marker-file: url("img/airport-24.svg");
+    text-size: 10;
+    text-dx: 13; text-dy: 13;
+    text-wrap-width: 100;
+  }
+  [zoom>=8] {
+    marker-file: url("img/airport-24.svg");
+    text-size: 12;
+    text-dx: 17; text-dy: 17;
+    text-wrap-width: 120;
+  }
+}
+
+#airports {
+  [USE_DESC = "Unknown"]{
+    marker-fill: #666;
+    marker-line-color: #fff;
+    marker-line-width: 3;
+    marker-line-opacity: 1;
+    }
+  
+  [USE_DESC = "Civilian/Public"]{
+    marker-fill: #1f78b4;
+    marker-line-color: #fff;
+    marker-line-width: 3;
+    marker-line-opacity: 1;
+    }
+  
+  [USE_DESC = "Joint Military/Civilian"]{
+    marker-fill: #33a02c;
+    marker-line-color: #fff;
+    marker-line-width: 3;
+    marker-line-opacity: 1;
+    }
+  
+  [USE_DESC = "Military"]{
+    marker-fill: #e31a1c;
+    marker-line-color: #fff;
+    marker-line-width: 3;
+    marker-line-opacity: 1;
+    }
+  }
