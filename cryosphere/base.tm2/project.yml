@@ -1,0 +1,61 @@
+_prefs: 
+  baselayer: ''
+  mapid: thethirdpole.40601067
+  saveCenter: false
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 97.1191
+  - 32.6209
+  - 4
+description: ''
+format: "png8:m=h:c=128"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - thethirdpole_snow_covered_area
+  - thethirdpole_glaciers
+  - landuse
+  - hillshade
+  - contour.line
+  - waterway
+  - water
+  - thethirdpole_surface_water
+  - aeroway
+  - barrier_line
+  - building
+  - landuse_overlay
+  - tunnel
+  - road
+  - bridge
+  - admin
+  - country_label_line
+  - country_label
+  - marine_label
+  - state_label
+  - place_label
+  - water_label
+  - poi_label
+  - road_label
+  - waterway_label
+  - contour.label
+  - ne_10m_geography_regions_elevation_points
+maxzoom: 8
+minzoom: 2
+name: Basemap - Cryosphere
+source: "mapbox:///mapbox.mapbox-terrain-v1,thethirdpole.surface_water,thethirdpole.snow_covered_area,thethirdpole.glaciers,thethirdpole.695fa2e8,mapbox.mapbox-streets-v5"
+styles: 
+  - vars.mss
+  - bg.mss
+  - labels.mss
+  - roads.mss
+  - pois.mss
+  - thirdpole.mss
+template: ''
