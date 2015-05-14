@@ -1,0 +1,5 @@
+name,id,type
+Basemap – Forests,thethirdpole.40601067,base
+Forest Change,thethirdpole.28be3e2b,switchable
+Protected Areas,thethirdpole.protected_areas,switchable
+Forma Alerts,thethirdpole.10646d28,switchable
