@@ -1,0 +1,61 @@
+_prefs: 
+  baselayer: ''
+  mapid: thethirdpole.d2515a56
+  saveCenter: false
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 84.1992
+  - 28.3044
+  - 4
+description: ''
+format: "png8:m=h:c=128"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - thethirdpole_snow_covered_area
+  - thethirdpole_glaciers
+  - landuse
+  - hillshade
+  - contour.line
+  - waterway
+  - water
+  - thethirdpole_surface_water
+  - aeroway
+  - barrier_line
+  - building
+  - landuse_overlay
+  - thethirdpole_wetlands
+  - tunnel
+  - road
+  - bridge
+  - admin
+  - country_label_line
+  - country_label
+  - marine_label
+  - state_label
+  - place_label
+  - water_label
+  - poi_label
+  - road_label
+  - waterway_label
+  - contour.label
+maxzoom: 8
+minzoom: 2
+name: Basemap - Water Cycle
+source: "mapbox:///mapbox.mapbox-terrain-v1,thethirdpole.surface_water,thethirdpole.wetlands,thethirdpole.snow_covered_area,thethirdpole.glaciers,mapbox.mapbox-streets-v5"
+styles: 
+  - vars.mss
+  - bg.mss
+  - labels.mss
+  - roads.mss
+  - pois.mss
+  - thethirdpole.mss
+template: ''
