@@ -1,0 +1,9 @@
+#damdamage[Earthquake = 'Damaged'] {
+  marker-width:20;
+  marker-fill:#ac1111;
+  marker-fill-opacity: 0.5;
+  marker-line-color:#ac1111;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+}
+

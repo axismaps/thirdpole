@@ -1,0 +1,34 @@
+#prelimlandslides2015 {
+  marker-width:10;
+  marker-fill:#999;
+  marker-fill-opacity: 0.5;
+  marker-line-color:#333;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  [Size = 'Medium']{
+    marker-width: 15;
+  }
+  [Size = 'Large']{
+    marker-width: 20;
+  }
+}
+
+#prelimpotentialvalle{
+  marker-width:12;
+  marker-fill:#065227;
+  marker-fill-opacity: 0.75;
+  marker-line-color:#065227;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+}
+
+#valleyswithintensela {
+  line-width:2;
+  line-color:#065227;
+  ::outline{
+    line-width:8;
+    line-color:#065227;
+    line-opacity: 0.4;
+  }
+}
+

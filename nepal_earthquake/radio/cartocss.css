@@ -1,0 +1,24 @@
+#radio {
+  marker-width: 20;
+  marker-fill:#fdbf6f;
+  marker-fill-opacity: 0.5;
+  marker-line-color:#ff7f00;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  [Power = '100w']{
+    marker-width: 5;
+  }
+  [Power = '250w']{
+    marker-width: 7.5;
+  }
+  [Power = '500w']{
+    marker-width: 10;
+  }
+  [Power = '1000w']{
+    marker-width: 12.5;
+  }
+  [Power = '2000w']{
+    marker-width: 15;
+  }
+}
+
