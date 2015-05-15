@@ -1,0 +1,75 @@
+#cyclone_lines {
+  line-cap: round;
+  line-join: round;
+  [zoom>=2]{
+  line-width: 0.5;
+    }
+  [zoom>=6]{
+  line-width: 1;
+    }
+
+[date_mm_dd =~"1990.*"],
+[date_mm_dd =~"1991.*"],
+[date_mm_dd =~"1992.*"],
+[date_mm_dd =~"1993.*"],
+[date_mm_dd =~"1994.*"]{
+  line-color: #ffff00;
+  //line-color: #ff0000;
+  line-opacity: 0.1;
+  line-smooth:1;
+    
+ 
+  }
+  
+[date_mm_dd =~"1995.*"],
+[date_mm_dd =~"1996.*"],
+[date_mm_dd =~"1997.*"],
+[date_mm_dd =~"1998.*"],
+[date_mm_dd =~"1999.*"]{
+  line-color: #ffcc00;
+  //line-color: #ff0000;
+  line-opacity: 0.2;
+  line-smooth:1;
+    
+
+  }
+  
+[date_mm_dd =~"2000.*"],
+[date_mm_dd =~"2001.*"],
+[date_mm_dd =~"2002.*"],
+[date_mm_dd =~"2003.*"],
+[date_mm_dd =~"2004.*"]{
+  line-color: #ff9e00;
+  //line-color: #ff0000;
+  line-opacity: 0.3;
+  line-smooth:1;
+    
+
+  }
+  
+[date_mm_dd =~"2005.*"],
+[date_mm_dd =~"2006.*"],
+[date_mm_dd =~"2007.*"],
+[date_mm_dd =~"2008.*"],
+[date_mm_dd =~"2009.*"]{
+  line-color: #ff6f00;
+  //line-color: #ff0000;
+  line-opacity: 0.4;
+  line-smooth:1;
+    
+}
+  
+[date_mm_dd =~"2010.*"],
+[date_mm_dd =~"2011.*"],
+[date_mm_dd =~"2012.*"],
+[date_mm_dd =~"2013.*"],
+[date_mm_dd =~"2014.*"]{
+  line-color: #ff0000;
+  line-opacity: 0.5;
+  line-smooth:1;
+
+}
+  
+  }
+
+
