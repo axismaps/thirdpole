@@ -1,4 +1,10 @@
-name,id,type
-Glacial Lakes,thethirdpole.glacial_lakes,switchable
-Protected Areas,thethirdpole.protected_areas,switchable
-Basemap - Cryosphere,thethirdpole.1a4f341b,base
+name,id,type,,
+Glacial Lakes,thethirdpole.glacial_lakes,switchable,,
+Protected Areas,thethirdpole.protected_areas,switchable,,
+Basemap - Cryosphere,thethirdpole.6f5a4230,base,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
