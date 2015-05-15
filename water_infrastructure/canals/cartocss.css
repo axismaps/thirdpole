@@ -1,0 +1,28 @@
+#khm_canals {
+  [zoom>=2]{
+	line-width: 0.3;
+    line-color: #6bbedd;
+   }
+  
+  [zoom>=7]{
+	line-width: 0.5;
+    line-color: #6bbedd;
+   }
+  }
+
+ #canals{
+  [zoom>=2]{
+	line-width: 0.5;
+    line-color: #6bbedd;
+   }
+  
+  [zoom>=6]{
+	line-width: 0.8;
+    line-color: #6bbedd;
+   }
+  
+   [zoom>=7]{
+	line-width: 1;
+    line-color: #6bbedd;
+   }
+  }

@@ -1,0 +1,41 @@
+#dam_hotspots {
+  marker-width:5;
+  marker-fill:#6bbedd;
+  marker-fill-opacity: 0.75;
+  marker-line-color:#3a90b0;
+  marker-allow-overlap:true;
+  //marker-ignore-placement:true;
+  
+  [CAPACITY >= 10]{
+    marker-width: 10;
+  }
+  
+  [CAPACITY >= 100]{
+    marker-width: 15;
+  }  
+
+  [CAPACITY >= 1000]{
+    marker-width: 25;
+  }
+}
+
+#dams_global{
+  marker-width:5;
+  marker-fill:#6bbedd;
+  marker-fill-opacity: 0.75;
+  marker-line-color:#3a90b0;
+  marker-allow-overlap:true;
+  //marker-ignore-placement:true;
+  
+  [CAP_MCM >= 10]{
+    marker-width: 10;
+  }
+  
+  [CAP_MCM >= 100]{
+    marker-width: 15;
+  }  
+
+  [CAP_MCM >= 1000]{
+    marker-width: 25;
+  }
+}
