@@ -1,0 +1,7 @@
+name,id,type
+Cyclone Paths,thethirdpole.cyclone_paths_lines,switchable
+Floodprone Areas,thethirdpole.floodproneareas,switchable
+Fires,thethirdpole.fww3dx9f,swapable
+Earthquakes,thethirdpole.earthquakes,swapable
+Landslides,thethirdpole.6b1f7b53,swapable
+Basemap – Hazards,thethirdpole.6660c119,base
