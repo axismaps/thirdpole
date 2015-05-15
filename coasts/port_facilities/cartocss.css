@@ -16,16 +16,28 @@
   marker-height: 6;
   }
   
-  [zoom>=6]{
+  [zoom>=5]{
   marker-line-width: 1;
+  marker-width: 7;
+  marker-height: 7;
+  }
+  
+  [zoom>=6]{
+  marker-line-width: 1.5;
   marker-width: 8;
   marker-height: 8;
   }
   
-  [zoom>=8]{
+  [zoom>=7]{
   marker-line-width: 1.5;
   marker-width: 10;
   marker-height: 10;
+  }
+  
+  [zoom>=8]{
+  marker-line-width: 1.5;
+  marker-width: 12;
+  marker-height: 12;
   }
   
   [prtsize="Very Small"]{
@@ -48,3 +60,5 @@
     marker-fill: #e41a1c;
     }
 }
+  
+
