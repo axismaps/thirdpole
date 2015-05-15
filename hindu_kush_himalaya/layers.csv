@@ -1,10 +1,7 @@
-name,id,type,,
-Airports,thethirdpole.airports,switchable,,
-Settlements,thethirdpole.settlements,switchable,,
-Soils,thethirdpole.soils,switchable,,
-Ecoregions,thethirdpole.ecoregions,switchable,,
-Desertification,thethirdpole.desertification,switchable,,
-Basemap - Cryosphere,thethirdpole.31faf541,base,,
-,,,,
-,,,,
-,,,,
+name,id,type
+Airports,thethirdpole.airports,switchable
+Settlements,thethirdpole.settlements,switchable
+Soils,thethirdpole.soils,swapable
+Ecoregions,thethirdpole.ecoregions,swapable
+Desertification,thethirdpole.desertification,swapable
+Basemap - Cryosphere,thethirdpole.31faf541,base
