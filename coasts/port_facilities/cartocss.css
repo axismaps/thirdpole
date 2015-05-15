@@ -1,0 +1,50 @@
+#port_facilities {
+  marker-fill: #666;
+  marker-line-color: #fff;
+  marker-line-opacity: 0.8;
+  marker-allow-overlap: true;
+  
+ [zoom>=2]{
+  marker-line-width: 0.5;
+  marker-width: 4;
+  marker-height: 4;
+  }
+  
+  [zoom>=4]{
+  marker-line-width: 1;
+  marker-width: 6;
+  marker-height: 6;
+  }
+  
+  [zoom>=6]{
+  marker-line-width: 1;
+  marker-width: 8;
+  marker-height: 8;
+  }
+  
+  [zoom>=8]{
+  marker-line-width: 1.5;
+  marker-width: 10;
+  marker-height: 10;
+  }
+  
+  [prtsize="Very Small"]{
+    marker-fill: #ff7f00;
+    }
+  
+  [prtsize="Small"]{
+    marker-fill: #984ea3;
+    }
+  
+  [prtsize="Medium"]{
+    marker-fill: #4daf4a;
+    }
+  
+  [prtsize="Large"]{
+    marker-fill: #377eb8;
+    }
+  
+   [prtsize="Huge"]{
+    marker-fill: #e41a1c;
+    }
+}
