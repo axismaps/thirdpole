@@ -1,0 +1,21 @@
+#earthquakes {
+  marker-width:6;
+  marker-fill:#BF9D73;
+  marker-fill-opacity: 0.75;
+  marker-line-color:#735F39;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  [mag > 6.2]{
+    marker-width: 5;
+  }
+  [mag > 6.5]{
+    marker-width: 10;
+  }
+  [mag > 6.9]{
+    marker-width: 15;
+  }
+  [mag > 7.4]{
+    marker-width: 25;
+  }
+}
+

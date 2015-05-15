@@ -1,0 +1,12 @@
+.fires[CONFIDENCE > 50] {
+  marker-width:0.5;
+  marker-fill:#f45;
+  marker-line-opacity: 0;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  marker-opacity: 0.5;
+  [BRIGHTNESS > 400]{
+    marker-opacity: 0.75;
+  }
+}
+
