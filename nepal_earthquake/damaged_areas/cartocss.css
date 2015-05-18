@@ -1,0 +1,31 @@
+// damage >80%
+#east_80{
+  polygon-fill: #cc4c02;
+  }
+#west_80{
+  polygon-fill: #cc4c02;
+  }
+
+// damage >70%
+#east_70{
+  polygon-fill: #fe9929;
+  }
+#west_70{
+  polygon-fill: #fe9929;
+  }
+
+// damage >55%
+#east_55{
+  polygon-fill: #fed98e;
+  }
+#west_55{
+  polygon-fill: #fed98e;
+  }
+
+// damage >40%
+#east_40{
+  polygon-fill: #ffffd4;
+  }
+#west_40{
+  polygon-fill: #ffffd4;
+  }
