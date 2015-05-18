@@ -7,7 +7,15 @@
   }
 
 #thethirdpole_glaciers {
-  raster-opacity: 1;
+  [zoom>=2]{
+   raster-opacity: 0.3;
+    }
+  [zoom>=6]{
+   raster-opacity: 0.4;
+    }
+  [zoom>=8]{
+   raster-opacity: 0.5;
+    }
 }
 
 #ne_10m_geography_regions_elevation_points::name[zoom>=2] {
