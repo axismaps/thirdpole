@@ -1,36 +1,38 @@
 #bridges{
   marker-file: url("img/cross-4.svg");
-  marker-fill: #666;
-  marker-fill-opacity: 0.3;
+  marker-fill: #662506;
   marker-line-color: #fff;
-  marker-line-opacity: 0.3;
+  marker-fill-opacity: 0.5;
+  marker-line-opacity: 0.1;
   marker-allow-overlap: true;
   
   [zoom>=4]{
-  marker-line-opacity: 0.5;
   marker-file: url("img/cross-6.svg");
-  marker-fill-opacity: 0.3;
-  marker-line-opacity: 0.5;
+  marker-fill-opacity: 0.5;
+  marker-line-opacity: 0.1;
   }
   
   [zoom>=5]{
   marker-file: url("img/cross-8.svg");
-  marker-fill-opacity: 0.3;
+  marker-fill-opacity: 0.5;
+  marker-line-opacity: 0.1;
   }
   
   [zoom>=6]{
   marker-file: url("img/cross-10.svg");
-  marker-fill-opacity: 0.5;
-  marker-line-opacity: 0.8;
+  marker-fill-opacity: 0.7;
+  marker-line-opacity: 0.3;
   }
   
   [zoom>=7]{
   marker-file: url("img/cross-10.svg");
-  marker-fill-opacity: 0.6;
+  marker-fill-opacity: 0.8;
+  marker-line-opacity: 0.4;
   }
   
   [zoom>=8]{
   marker-file: url("img/cross-12.svg");
-  marker-fill-opacity: 0.8;
+  marker-fill-opacity: 0.9;
+  marker-line-opacity: 0.5;
   }
 }
