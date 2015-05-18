@@ -1,7 +1,24 @@
 #glacial_lakes{
-  ::outline{
-    line-color: #57c3b5;
+    line-color: #349fba;
+    line-width: 1;
+    polygon-fill: #349fba;
+  
+  [zoom>=2]{
+    polygon-opacity: 0.5;
+    line-opacity: 0.5;
+    }
+  
+  [zoom>=5]{
     line-width: 2;
     }
-  polygon-fill: #b8f2f4;
+  
+  [zoom>=6]{
+    polygon-opacity: 0.8;
+    line-opacity: 0.8;
+    }
+  
+  [zoom>=7]{
+    line-width: 3;
+    polygon-opacity: 1;
+    }
 }
