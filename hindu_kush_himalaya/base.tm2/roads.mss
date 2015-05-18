@@ -140,6 +140,7 @@
     line-width: 0.5;
     line-cap: round;
     line-join: round;
+      [zoom>=7] { line-width: 1; }
     [class='main'] {
       [zoom>=10] { line-width: 1; }
       [zoom>=12] { line-width: 1.5; }
