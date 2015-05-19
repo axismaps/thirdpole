@@ -140,29 +140,29 @@ Map {
     polygon-clip: false;
     [class='full_shadow'] {
       polygon-fill: #000;
-      polygon-opacity: 0.05;
+      polygon-opacity: 0.1;//0.05;
       polygon-comp-op: multiply;   
-      [zoom>=6] { polygon-opacity:0.08; }
-      [zoom>=10] { polygon-opacity:0.1; } 
+      [zoom>=6] { polygon-opacity:0.16; }//0.08; }
+      //[zoom>=10] { polygon-opacity:0.1; } 
       [zoom>=16] { polygon-opacity:0.07; } 
       [zoom=17] { polygon-opacity:0.05; }
       [zoom=18] { polygon-opacity:0.03; }  
     }
     [class='medium_shadow'] {
       polygon-fill: #000;
-      polygon-opacity: 0.05;
+      polygon-opacity: 0.1;//0.05;
       polygon-comp-op: multiply;     
-      [zoom>=6] { polygon-opacity:0.08; }     
-      [zoom>=10] { polygon-opacity:0.1; }  
+      [zoom>=6] { polygon-opacity:0.16; }//0.08; }    
+      //[zoom>=10] { polygon-opacity:0.1; }  
       [zoom>=15] { polygon-opacity:0.07; } 
       [zoom>=16] { polygon-opacity:0.05; } 
       [zoom=17] { polygon-opacity:0.04; }
       [zoom=18] { polygon-opacity:0.03; }   
     }
     [class='medium_highlight'] {
-      polygon-fill:lighten(@yellow, 49);  
-      polygon-opacity: 0.3;  
-      [zoom>=6] { polygon-opacity:0.4; }     
+      polygon-fill: lighten(@yellow, 49);  
+      polygon-opacity: 0.6;//0.3;  
+      [zoom>=6] { polygon-opacity:0.8; }//0.4; }     
       [zoom>=10] { polygon-opacity:0.45; }    
       [zoom>=16] { polygon-opacity:0.25; polygon-fill: #fff; } 
       [zoom=17] { polygon-opacity:0.15; } 
@@ -170,8 +170,8 @@ Map {
     }
     [class='full_highlight'] {  
       polygon-fill: #fff;
-      polygon-opacity: 0.3; 
-      [zoom>=6] { polygon-opacity:0.35; }    
+      polygon-opacity: 0.6;//0.3; 
+      [zoom>=6] { polygon-opacity:0.7; }//0.35; }    
       [zoom>=10] { polygon-opacity:0.4; } 
       [zoom>=16] { polygon-opacity:0.25; } 
       [zoom=17] { polygon-opacity:0.15; } 
@@ -185,26 +185,28 @@ Map {
   ::5[zoom=18] { image-filters: agg-stack-blur(32,32); }
 }
 
-#contour.line::line [zoom>=13] {
-  line-color: @gray-5;
-  line-width: 0.15;
-  [zoom>=15] { line-width: 0.2; }
+#contour.line::line {
+  line-color: darken(@gray-5, 25);
   [zoom>=16] { line-opacity: 0.75; }
-  [index=10] { 
-    line-width: 0.3; 
+  
+  [zoom>=11] { line-width: 0.15; }    
+  [zoom>=15] { line-width: 0.2; }
+
+  [index=10] {
+    [zoom>=11] { line-width: 0.3; }
     [zoom>=15] { line-width: 0.4; }
   }
 }
 
 #contour.label::label {
-  [index=10][zoom>=13] {
+  [index=10][zoom>=11] {
     text-name: "[ele]+'m'";
     text-face-name: @reg;
     text-placement: line;
     text-size: 8;
     text-character-spacing: 1;
-    text-fill: @gray-5;
-    text-halo-fill: fadeout(@gray-1, 90);
+    text-fill: darken(@gray-5, 25);
+    text-halo-fill: fadeout(@gray-1, 40);
     text-halo-radius: 1.5;
     text-halo-rasterizer: fast;
     text-avoid-edges: true;
