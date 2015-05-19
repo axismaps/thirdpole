@@ -23,6 +23,7 @@
   [zoom>=2]{
   marker-width: 2;
   marker-height: 2;
+  image-filters: agg-stack-blur(1,1);
   }
   
   [zoom>=4]{
@@ -34,6 +35,7 @@
   marker-fill-opacity: 0.5;
   marker-width: 5;
   marker-height: 5;
+  image-filters: agg-stack-blur(2,2);
   }
   
   [zoom>=6]{
@@ -46,6 +48,7 @@
   marker-fill-opacity: 0.7;
   marker-width: 7;
   marker-height: 7;
+  image-filters: agg-stack-blur(3,3);
   }
   
   [zoom>=8]{
