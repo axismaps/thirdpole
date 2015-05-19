@@ -2,4 +2,18 @@
   polygon-fill: #e31a1c;
   polygon-opacity: 0.25;
   line-color: #e31a1c;
+  line-width: 0.25;
+
+
+[zoom>=4]{
+  line-width: 0.25;
   }
+  
+[zoom>=5]{
+  line-width: 0.5;
+  }
+  
+[zoom>=7]{
+  line-width: 0.75;
+  }
+}
