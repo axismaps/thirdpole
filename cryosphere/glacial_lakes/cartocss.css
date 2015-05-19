@@ -1,7 +1,7 @@
 #glacial_lakes{
-    line-color: #349fba;
+    line-color: #1e6585;
     line-width: 1;
-    polygon-fill: #349fba;
+    polygon-fill: #1e6585;
   
   [zoom>=2]{
     polygon-opacity: 0.5;
