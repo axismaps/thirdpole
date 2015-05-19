@@ -1,7 +1,26 @@
-#bgdnhrfloodpronearea {
-  line-width: 0.5;
+#floodproneareas{
+  line-width: 0.05;
   line-color: #6bbedd;
   polygon-fill: #6bbedd;
   polygon-opacity: 0.5;
-}
 
+[zoom>=4]{
+  line-width: 0.05;
+  }
+  
+[zoom>=5]{
+  line-width: 0.1;
+  }
+  
+[zoom>=6]{
+  line-width: 0.2;
+  }
+  
+[zoom>=7]{
+  line-width: 0.4;
+  }
+  
+[zoom>=8]{
+  line-width: 0.6;
+  }
+}
