@@ -15,7 +15,7 @@
 [date_mm_dd =~"1994.*"]{
   line-color: #ffff00;
   //line-color: #ff0000;
-  line-opacity: 0.1;
+  line-opacity: 0.3;
   line-smooth:1;
     
  
@@ -28,7 +28,7 @@
 [date_mm_dd =~"1999.*"]{
   line-color: #ffcc00;
   //line-color: #ff0000;
-  line-opacity: 0.2;
+  line-opacity: 0.3;
   line-smooth:1;
     
 
@@ -41,7 +41,7 @@
 [date_mm_dd =~"2004.*"]{
   line-color: #ff9e00;
   //line-color: #ff0000;
-  line-opacity: 0.3;
+  line-opacity: 0.4;
   line-smooth:1;
     
 
@@ -54,7 +54,7 @@
 [date_mm_dd =~"2009.*"]{
   line-color: #ff6f00;
   //line-color: #ff0000;
-  line-opacity: 0.4;
+  line-opacity: 0.5;
   line-smooth:1;
     
 }
