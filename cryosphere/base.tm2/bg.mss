@@ -307,7 +307,7 @@ Map {
   [class='piste'] {
     polygon-fill: @piste;
   }
-  [class='glacier'] {
+  [class='glacier']{
     polygon-fill: @glacier;
   }
 }

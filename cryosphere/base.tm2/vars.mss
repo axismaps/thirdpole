@@ -49,7 +49,8 @@
 @school:            darken(@land,4);
 @industrial:        darken(@land, 5);
 @aeroway:           lighten(@land,4);
-@glacier:           darken(@snow, 10);
+//@glacier:           darken(@snow, 10);
+@glacier:           #99fbff;
 @parking: lighten(@building, 1); // temp, need to change
 
 @building:          @land;
