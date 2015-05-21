@@ -9,15 +9,15 @@
     marker-opacity: 0.75;
   }
   [zoom>=5]{
-    marker-width:0.5;
+    marker-width:0.25;
     }
   [zoom>=6]{
-    marker-width:0.75;
+    marker-width:0.5;
     }
   [zoom>=7]{
-    marker-width:1;
+    marker-width:0.75;
     }
   [zoom>=8]{
-    marker-width:2;
+    marker-width:1;
     }
 }
