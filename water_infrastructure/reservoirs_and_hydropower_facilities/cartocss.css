@@ -1,8 +1,9 @@
+//SIZES
 #dam_hotspots {
   marker-width:5;
   marker-fill:#6bbedd;
   marker-fill-opacity: 0.75;
-  marker-line-color:#3a90b0;
+  marker-line-color:#999;
   marker-allow-overlap:true;
   //marker-ignore-placement:true;
   
@@ -19,11 +20,71 @@
   }
 }
 
+//COLOR CLASSES
+#dam_hotspots {
+  
+  //3 - red
+  [STATUS="Suspended"]{
+    marker-fill:#fb8072;
+    }
+  
+  //lots - orange
+  [STATUS="Under Construction"]{
+    marker-fill:#fdb462;
+    }
+  
+  //lots - green
+  [STATUS="Operational"]{
+    marker-fill:#b3d369;
+    }
+  
+  //lots - blue
+  [STATUS="Planned"]{
+    marker-fill:#80b1d3;
+    }
+
+  //lots - gray
+  [STATUS="Unknown"]{
+    marker-fill:#ddd;
+    }
+  
+  
+  //These dams are located in South America
+  //1 - (S. America) dark purple
+  [STATUS="Recuperation"]{
+    marker-fill:#bc80bd;
+    }
+  
+  //1 - (S. America) light purple
+  [STATUS="Reoptimization"]{
+    marker-fill:#bebada;
+    }
+  
+  //1 - (S. America) pink
+  [STATUS="Revoked"]{
+    marker-fill:#fccde5;
+    }
+  
+  //2 (S. America)- blue-green
+  [STATUS="Deactivated"]{
+    marker-fill:#8dd3c7;
+    }
+  
+  //lots (S. America) - yellow
+  [STATUS="Inventoried"]{
+    marker-fill: #ffffb3;
+    }
+  }
+  
+
+
+//Global dataset does not include a STATUS attribute
 #dams_global{
   marker-width:5;
-  marker-fill:#6bbedd;
+  //marker-fill:#6bbedd;
+  marker-fill: #ddd;
   marker-fill-opacity: 0.75;
-  marker-line-color:#3a90b0;
+  marker-line-color:#999;
   marker-allow-overlap:true;
   //marker-ignore-placement:true;
   
