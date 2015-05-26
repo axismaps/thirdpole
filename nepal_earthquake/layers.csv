@@ -1,4 +1,5 @@
 name,id,type
+Earthquake Damage,thethirdpole.wplrqkt9,base
 Damaged Dams,thethirdpole.dams,switchable
 Landslides,thethirdpole.landslides,switchable
 Radio Stations,thethirdpole.radio,swapable
