@@ -34,6 +34,7 @@
   text-placements: "S,N,E,W";
   text-dx: 6; text-dy: 6;
   marker-allow-overlap: false;
+  text-allow-overlap: true;
   marker-fill: #6a533b;
   
   [zoom>=6] {

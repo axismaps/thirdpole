@@ -49,7 +49,8 @@
 @school:            darken(@land,4);
 @industrial:        darken(@land, 5);
 @aeroway:           lighten(@land,4);
-@glacier:           darken(@snow, 10);
+//@glacier:           darken(@snow, 10);
+@glacier:           #99fbff;
 @parking: lighten(@building, 1); // temp, need to change
 
 @building:          @land;
@@ -80,20 +81,25 @@
 @country_halo: fadeout(#fff, 90);
 
 @state_text:@gray-4;
-@state_halo: fadeout(#fff, 90);
+//@state_halo: fadeout(#fff, 90);
+@state_halo: fadeout(#fff, 50);
 
 @city_text: @black;
 @city_text_high:@gray-4;
-@city_halo: fadeout(#fff, 90);
+//@city_halo: fadeout(#fff, 90);
+@city_halo: fadeout(#fff, 50);
 @town_text: @black;
 @town_text_high: @city_text_high;
-@town_halo: fadeout(#fff, 90);
+//@town_halo: fadeout(#fff, 90);
+@town_halo: fadeout(#fff, 50);
 @village_text: @black;
 @village_text_high: @city_text_high;
-@village_halo: fadeout(#fff, 90);
+//@village_halo: fadeout(#fff, 90);
+@village_halo: fadeout(#fff, 50);
 @neigh_text: @black;
 @neigh_text_high:@city_text_high;
-@neigh_halo: fadeout(#fff, 90);
+//@neigh_halo: fadeout(#fff, 90);
+@neigh_halo: fadeout(#fff, 50);
 
 @marine_text: lighten(desaturate(@blue, 20), 10);
 
@@ -101,8 +107,10 @@
 @poi_halo: fadeout(#fff, 95);
 @peak_text: @gray-5;
 @peak_halo: park_halo;
-@park_text: darken(@park, 45);
-@park_halo: fadeout(#fff, 90);
+//@park_text: darken(@park, 45);
+@park_text: darken(@park, 55);
+//@park_halo: fadeout(#fff, 90);
+@park_halo: fadeout(#fff, 50);
 @transport_text: @gray-5;
 @transport_halo: fadeout(#fff, 90);
 

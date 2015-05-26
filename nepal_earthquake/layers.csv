@@ -1,8 +1,7 @@
 name,id,type
-Earthquake Damage,thethirdpole.wplrqkt9,base
 Damaged Dams,thethirdpole.dams,switchable
 Landslides,thethirdpole.landslides,switchable
 Radio Stations,thethirdpole.radio,swapable
 Absentee Population,thethirdpole.absentee,swapable
 Population,thethirdpole.population,swapable
-Basemap – Hazards,thethirdpole.6660c119,base
+Basemap – Nepal Earthquake,thethirdpole.0f15fe8f,base

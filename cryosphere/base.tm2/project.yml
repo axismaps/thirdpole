@@ -47,7 +47,7 @@ layers:
   - waterway_label
   - contour.label
   - ne_10m_geography_regions_elevation_points
-maxzoom: 8
+maxzoom: 12
 minzoom: 2
 name: Basemap - Cryosphere
 source: "mapbox:///mapbox.mapbox-terrain-v1,thethirdpole.surface_water,thethirdpole.snow_covered_area,thethirdpole.glaciers,thethirdpole.695fa2e8,mapbox.mapbox-streets-v5"
