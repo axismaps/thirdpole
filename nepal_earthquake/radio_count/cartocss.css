@@ -1,0 +1,20 @@
+#radio_count[count>0] {
+  marker-width: 20;
+  marker-fill:#6fadfc;
+  marker-fill-opacity: 0.5;
+  marker-line-color:#005dff;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  [count = 1]{
+    marker-width: 5;
+  }
+  [count >= 2][count<5]{
+    marker-width: 10;
+  }
+  [count>=5][count<10]{
+    marker-width: 12.5;
+  }
+  [count >10]{
+    marker-width: 15;
+  }
+}

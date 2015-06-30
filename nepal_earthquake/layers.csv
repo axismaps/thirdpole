@@ -1,6 +1,7 @@
 name,id,type
 Damaged Dams,thethirdpole.dams,switchable
 Landslides,thethirdpole.landslides,switchable
+Active Radio Stations by VDC,thethirdpole.radio_count,switchable
 Radio Stations,thethirdpole.radio,swapable
 Absentee Population,thethirdpole.absentee,swapable
 Population,thethirdpole.population,swapable
