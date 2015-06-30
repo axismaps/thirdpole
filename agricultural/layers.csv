@@ -1,3 +1,12 @@
-name,id,type
-Livestock,thethirdpole.c8394e59,switchable
-Basemap – Agricultural,thethirdpole.9334be5a,base
+name,id,type,,
+Livestock,thethirdpole.c8394e59,swappable,,
+Population Density,thethirdpole.pop_density,swappable,,
+Soil Erosion,thethirdpole.soil_erosion,swappable,,
+Basemap – Agricultural,thethirdpole.9334be5a,base,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
