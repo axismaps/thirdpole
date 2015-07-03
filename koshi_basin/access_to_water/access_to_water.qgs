@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="HH_having_access_to_drinking_water_tiff20150630141257469" name="HH_having_access_to_drinking_water_tiff">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="HH_having_access_to_drinking_water_tiff20150703104757606" name="HH_having_access_to_drinking_water_tiff">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -11,10 +11,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>67.47530272690278252</xmin>
-      <ymin>17.18490546924763507</ymin>
-      <xmax>103.74300785059585905</xmax>
-      <ymax>38.6035081683474175</ymax>
+      <xmin>83.36372386797400225</xmin>
+      <ymin>24.05500233610520766</ymin>
+      <xmax>90.74822174970391586</xmax>
+      <ymax>29.40992412659211297</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -34,26 +34,28 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150630140957390"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150630141002316"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150630134041055"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:32645" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150703104727409"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150630141257469"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="HH_having_access_to_drinking_water_tiff20150703104757606"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>HH_having_access_to_drinking_water_tiff20150630141257469</item>
+      <item>HH_having_access_to_drinking_water_tiff20150703104757606</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="HH_having_access_to_drinking_water_tiff" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="HH_having_access_to_drinking_water_tiff20150630141257469" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="HH_having_access_to_drinking_water_tiff20150703104757606" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers layercount="1">
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>HH_having_access_to_drinking_water_tiff20150630141257469</id>
-      <datasource>./HH_having_access_to_drinking_water_tiff.tif</datasource>
+      <id>HH_having_access_to_drinking_water_tiff20150703104757606</id>
+      <datasource>../../../../../Desktop/HH_having_access_to_drinking_water_tiff.tif</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -85,22 +87,13 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="3" classificationMin="0" type="singlebandpseudocolor">
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency>
-            <singleValuePixelList>
-              <pixelListEntry min="0" max="0" percentTransparent="100"/>
-            </singleValuePixelList>
+            <threeValuePixelList>
+              <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
+              <pixelListEntry red="255" blue="255" green="255" percentTransparent="100"/>
+            </threeValuePixelList>
           </rasterTransparency>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="224" label="0" color="#08519c"/>
-              <item alpha="0" value="225" label="borders" color="#ffffff"/>
-              <item alpha="255" value="232" label="232" color="#bdd7e7"/>
-              <item alpha="255" value="235" label="235" color="#3182bd"/>
-              <item alpha="255" value="242" label="242" color="#6baed6"/>
-              <item alpha="0" value="255" label="background" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -130,8 +123,8 @@
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
