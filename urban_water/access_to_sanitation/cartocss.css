@@ -1,0 +1,22 @@
+#toiletsjoined[PhysicalPr != null] {
+  marker-width:2;
+  marker-fill:#999;
+  marker-line-color:#666;
+  marker-fill-opacity: 0.65;
+  marker-allow-overlap:true;
+  marker-ignore-placement:true;
+  [PhysicalPr >79000]{
+    marker-width: 5;
+  }
+  [PhysicalPr >156100]{
+    marker-width: 10;
+  }
+  [PhysicalPr >251300]{
+    marker-width: 15;
+  }
+  [PhysicalPr >384500]{
+    marker-width: 20;
+  }
+}
+
+
