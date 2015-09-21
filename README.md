@@ -55,8 +55,6 @@ This map focuses on the extent of the Hindu Kush Himalaya region as defined by t
 ####Settlements 
 Digital point data of location of Settlements of Hindu Kush Himalayan (HKH) Region as available in ICIMOD [Regional Database System](http://rds.icimod.org/Home/DataDetail?metadataId=3752&searchlist=True). This dataset is basic vector layer derived from ESRI Map & Data in 2001. 
 
-+CITATION: ICIMOD. (2014) Glaciers of Nepal 1990. Kathmandu, Nepal: ICIMOD
-
 ####Airports
 Digital point dataset of location of Airports of Hindu Kush Himalayan (HKH) Region as available in ICIMOD [Regional Database System](http://rds.icimod.org/Home/DataDetail?metadataId=1081&searchlist=True). This dataset is basic vector layer derived from ESRI Map & Data in 2001.
 
