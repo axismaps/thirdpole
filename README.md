@@ -28,7 +28,7 @@ Data on livestock distributions (cattle, chicken, duck, pig, sheep & goat) were 
 India Cyclone Track's from 1990 to 2013. Data Source: Regional Specialized Meteorological Centre for Tropical Cyclones over North Indian Ocean. India Meteorological Department.
 
 ####Port Facilities
-
+Data downloaded from: http://geonode.wfp.org:80/geoserver/wfs?format_options=charset%3AUTF-8&typename=geonode%3Awld_trs_ports_wfp&outputFormat=SHAPE-ZIP&version=1.0.0&service=WFS&request=GetFeature
 
 ##Cryosphere
 
@@ -111,7 +111,7 @@ Data on access to sanitation in India is made available on the India Water Porta
 ##Water Cycle
 
 #####Basin Boundaries 
-Basin boundaries for the largest watersheds originating in the Hindu Kush-Himalaya (HKH) region. 
+Digital polygon data of Major River Basins of Hindu Kush Himalayan, HKH Region. This dataset is acquired from 90 meter spatial resolution SRTM DEM. The dataset contains Ten Major River Basins of the Hindu Kush - Himalayan (HKH) Region. All data is sourced from MENRIS-ICIMOD.
 
 ####Aquaduct Basin Index
 This dataset shows countries and river basins' average exposure to five of Aqueduct's water risk indicators: baseline water stress, interannual variability, seasonal variability, flood occurrence, and drought severity. Risk exposure scores are available for every country (except Greenland and Antarctica), the 100 most populous river basins, and the 100 largest river basins by area.
