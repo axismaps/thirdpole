@@ -1,0 +1,11 @@
+#glds00ag {
+  raster-opacity:1;
+  raster-colorizer-default-mode: linear;
+  raster-colorizer-default-color: transparent;
+  raster-colorizer-stops:
+    stop(0, #ffffd4)
+    stop(100, #fed98e)
+    stop(200, #fe9929)
+    stop(300, #d95f0e)
+    stop(400, #993404)
+}
