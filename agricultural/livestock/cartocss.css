@@ -1,0 +1,16 @@
+#ruminantproductionsy {
+  raster-colorizer-default-color: transparent;
+  raster-colorizer-stops:
+    stop(1, #a6cee3)
+    stop(2, #1f78b4)
+    stop(3, #b2df8a)
+    stop(4, #33a02c)
+    stop(5, #fb9a99)
+    stop(6, #e31a1c)
+    stop(7, #fdbf6f)
+    stop(8, #ff7f00)
+    stop(9, #cab2d6)
+    stop(10, #6a3d9a)
+    stop(11, #ffff99)
+    stop(12, #b15928)
+}

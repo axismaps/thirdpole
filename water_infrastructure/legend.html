@@ -1,0 +1,85 @@
+<div class='my-legend'>
+	<div class='legend-scale'>
+		<ul class='legend-labels'>
+			<li><span style="border:none"><object style="margin-top:-5px" type="image/svg+xml" data="bridges/cross-4.svg"></object></span>Bridges</li>
+			<li><span class="line" style="background:#6bbedd"></span>Canals</li>
+		</ul>
+	</div>
+	<div class='legend-title'>Population Density</div>
+	<div class='legend-scale'>
+		<ul class='legend-labels'>
+			<li><span style='background:#ffffd4;'></span>&lt; 250 persons / km2</li>
+			<li><span style='background:#fed98e;'></span>250 - 500 persons / km2</li>
+			<li><span style='background:#fe9929;'></span>500 - 750 persons / km2</li>
+			<li><span style='background:#d95f0e;'></span>750 - 1,000 persons / km2</li>
+			<li><span style='background:#993404;'></span>&gt; 1,000 persons / km2</li>
+		</ul>
+	</div>
+	<div class='legend-title'>Dam Hotspots</div>
+	<div class='legend-scale'>
+		<ul class='legend-labels'>
+			<li><span class="point" style='background:#fb8072;'></span>Suspended</li>
+			<li><span class="point" style='background:#fdb462;'></span>Under Construction</li>
+			<li><span class="point" style='background:#b3d369;'></span>Operational</li>
+			<li><span class="point" style='background:#80b1d3;'></span>Planned</li>
+			<li><span class="point" style='background:#ddd;'></span>Unknown</li>
+		</ul>
+	</div>
+	<!--<div class='legend-source'>Source: UNEP, BIG, OBIS, Natural Earth</div>-->
+</div>
+
+
+<style type='text/css'>
+	.my-legend .legend-title {
+		text-align: left;
+		margin-bottom: 5px;
+		font-weight: bold;
+		font-size: 100%;
+		clear: both;
+	}
+	.my-legend .legend-scale ul {
+		margin: 0;
+		margin-bottom: 5px;
+		padding: 0;
+		float: left;
+		list-style: none;
+	}
+	.my-legend .legend-scale ul li {
+		font-size: 100%;
+		list-style: none;
+		margin-left: 0;
+		line-height: 18px;
+		margin-bottom: 2px;
+		clear: both;
+	}
+	.my-legend ul.legend-labels li span {
+		display: block;
+		float: left;
+		height: 16px;
+		width: 30px;
+		margin-right: 5px;
+		margin-left: 0;
+		border: 1px solid #999;
+	}
+	.my-legend ul.legend-labels li span.point {
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		width: 16px;
+		margin: 0 12px 0 7px;
+	}
+	.my-legend ul.legend-labels li span.line {
+		border: none;
+		height: 4px;
+		margin-top: 7px;
+		margin-left: 1px;
+		margin-right: 6px;
+	}
+	.my-legend .legend-source {
+		font-size: 100%;
+		color: #999;
+		clear: both;
+	}
+	.my-legend a {
+		color: #777;
+	}
+</style>
